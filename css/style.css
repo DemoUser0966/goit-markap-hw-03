@@ -1,14 +1,52 @@
 
-
 ul {
     list-style-type: none;
 }
 
+.body {
+
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section {
+    padding: 94px 0px;
+}
+
+/*header*/
+.header-container {
+display: flex;
+align-items: center;
+gap: 93px;
+
+}
+
+.navigation {
+align-items: center;
+flex-grow: 1;
+display: flex;
+justify-content: space-between;
+gap:  93px;
+}
+
+.header-menu {
+display: flex;
+gap: 50px;
+}
 
 .head {
     color: #212121;
     text-decoration: none;
-        font-style: normal;
+    font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 0.8;
@@ -18,48 +56,49 @@ ul {
     color:#2196F3;;
 }
 
-.body { 
-    
-    color: #212121;
-font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-
-}
-
 .header-name {
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
         text-decoration: none;
         color: #000000;
         letter-spacing: 0.03em;
+
+       
 }
+
 .name {
      color: #2196F3;
  
-    
 }
+
 .nomber {
-    
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
     text-decoration: none;
         color: #757575;
+       
 }
 
+/*hero title*/
+.hero-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 696px;
+    justify-content: center;
+
+}
+
+
 .hero-title {
+    margin-bottom: 33px;
     background-color: #2F303A;
     color: #FFFFFF;
     text-transform:uppercase;
-    font-weight: 900;
-        font-size: 44px;
             font-weight: 900;
             font-size: 44px;
             line-height: 1.36;
@@ -67,23 +106,29 @@ font-family: 'Roboto';
 }
 
 .primery-button {
+    padding: 10px 32px;
     color: #FFFFFF;
 background: #2196F3;
 font-weight: 700;
     font-size: 16px;
     cursor: pointer;
     letter-spacing: 0.06em;
-       
+    border-radius: 4px;
 }
 
 /*section-two*/
+.two-ul {
+    display: flex;
+    gap: 30px;
+    
+}
 
 .section-two {
     font-size: 14px;
 }
 
 .h3 {
-   
+    margin-bottom: 10px;   
         font-weight: 700;
         font-size: 14px;
         line-height: 1.1;
@@ -93,9 +138,11 @@ font-weight: 700;
 .p-section {
     color: #757575;
     letter-spacing: 0.03em;
+    line-height: 1.71;
 }
 
 .h2 {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -112,6 +159,37 @@ font-weight: 700;
     letter-spacing: 0.03em;
 
 }
+
+/*section three*/
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+ 
+}
+
+.three-ul {
+    display: flex;
+    gap: 30px;
+justify-content: center;
+}
+
+/*section four*/
+.container-four {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.four-ul {
+display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+/*footer*/
 
 .footer {
     background-color:#2F303A;
@@ -139,6 +217,7 @@ font-weight: 700;
         line-height: 1.7;
 }
 .footer-name {
+    margin-bottom: 20px;
     color:#FFFFFF;
     text-decoration: none;
     font-family: 'Raleway';
@@ -154,14 +233,28 @@ ul {
     list-style-type: none;
 }
 
+.ul-button {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.picture-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
 .portfolio-button {
+    padding: 6px 22px;
     cursor: pointer;
-     
      font-weight: 500;
       font-size: 16px;
       line-height: 1.6;
     border-radius: 4px;
     letter-spacing: 0.03em;
+    
   
     
 }
