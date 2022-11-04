@@ -1,4 +1,10 @@
 
+* h1,
+h2,
+h3,
+p {
+    margin: 0
+}
 * {
     box-sizing: border-box;
 }
@@ -15,20 +21,20 @@ ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    margin: 0px;
 
 }
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 .section {
     padding: 94px 0px; 
 
 }
-.section:nth-child(2) { 
-padding: 0px
-}
+
 
 /*header*/
 .header-container {
@@ -36,7 +42,7 @@ display: flex;
 align-items: center;
 gap: 93px;
 padding: 0px 15px;
-
+border-bottom: 1px solid #ECECEC
 }
 
 .navigation {
@@ -45,6 +51,7 @@ flex-grow: 1;
 display: flex;
 justify-content: space-between;
 gap:  93px;
+
 }
 
 .header-menu {
@@ -101,6 +108,7 @@ gap: 50px;
     justify-content: center;
    padding: 200px 0px ;
    margin-bottom: 112px;
+   
 
 }
 
@@ -114,6 +122,8 @@ gap: 50px;
             font-size: 44px;
             line-height: 1.36;
             letter-spacing: 0.06em;
+            text-align: center;
+            margin: 0px;
 }
 
 .primery-button {
@@ -126,6 +136,7 @@ font-weight: 700;
     letter-spacing: 0.06em;
     border-radius: 4px;
     height: 50px;
+    margin: 0px;
 }
 
 /*section-two*/
@@ -137,6 +148,7 @@ font-weight: 700;
 
 .section-two {
     font-size: 14px;
+    padding: 94px 0px;
 }
 
 .h3 {
@@ -145,12 +157,20 @@ font-weight: 700;
         font-size: 14px;
         line-height: 1.1;
         color: #212121;
+        text-align: left
 }
 
+.p-class {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+}
 .p-section {
     color: #757575;
     letter-spacing: 0.03em;
     line-height: 1.71;
+    text-align: left;
+   
 }
 
 .h2 {
@@ -169,6 +189,8 @@ font-weight: 700;
     line-height: 1.2;
     color: #212121;
     letter-spacing: 0.03em;
+    text-align: center;
+    
 
 }
 
@@ -192,11 +214,15 @@ justify-content: center;
 .container-four {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
     padding: 0px 15px;
 
 }
-
+.p-section-four {
+    color: #757575;
+        letter-spacing: 0.03em;
+        line-height: 1.71;
+        text-align: center;
+}
 .four-ul {
 display: flex;
     gap: 30px;
@@ -204,7 +230,9 @@ display: flex;
 }
 
 /*footer*/
-
+.footer-container {
+    padding: 60px 0px;
+}
 .footer {
     background-color:#2F303A;
     color: #FFFFFF;
@@ -253,12 +281,14 @@ ul {
     gap: 8px;
     justify-content: center;
     padding: 0px 15px;
+    margin: 0px 0px 50px 0px;
 }
 .picture-ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 0px 15px;
+    gap: 30px;
+    padding: 0px;
+    
     
 }
 
