@@ -2,15 +2,19 @@
 * h1,
 h2,
 h3,
-p {
-    margin: 0
+p, 
+ul { 
+    margin: 0;
 }
+
 * {
     box-sizing: border-box;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .body {
@@ -37,7 +41,9 @@ ul {
 
 
 /*header*/
+
 .header-container {
+    height: 75px;
 display: flex;
 align-items: center;
 gap: 93px;
@@ -100,21 +106,24 @@ gap: 50px;
 }
 
 /*hero title*/
+.one-container {
+    padding: 200px 0px;
+}
 .hero-container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     max-width: 696px;
     justify-content: center;
-   padding: 200px 0px ;
    margin-bottom: 112px;
+   margin: 0 auto;
    
 
 }
 
 
 .hero-title {
-    margin-bottom: 33px; 
+    
     background-color: #2F303A;
     color: #FFFFFF;
     text-transform:uppercase;
@@ -123,7 +132,9 @@ gap: 50px;
             line-height: 1.36;
             letter-spacing: 0.06em;
             text-align: center;
-            margin: 0px;
+            margin: 0px 0px 30px 0px;
+            
+            
 }
 
 .primery-button {
@@ -136,7 +147,7 @@ font-weight: 700;
     letter-spacing: 0.06em;
     border-radius: 4px;
     height: 50px;
-    margin: 0px;
+   
 }
 
 /*section-two*/
@@ -148,7 +159,10 @@ font-weight: 700;
 
 .section-two {
     font-size: 14px;
-    padding: 94px 0px;
+    padding: 94px 0px 0px 0px;
+}
+.li-section-two {
+    width: 270px;
 }
 
 .h3 {
@@ -161,7 +175,7 @@ font-weight: 700;
 }
 
 .p-class {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    
     border-radius: 0px 0px 4px 4px;
     
 }
@@ -190,6 +204,7 @@ font-weight: 700;
     color: #212121;
     letter-spacing: 0.03em;
     text-align: center;
+    padding: 30px 0px 0px 0px;
     
 
 }
@@ -199,7 +214,6 @@ font-weight: 700;
 .container-three {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
     padding: 0px 15px;
  
 }
@@ -222,6 +236,7 @@ justify-content: center;
         letter-spacing: 0.03em;
         line-height: 1.71;
         text-align: center;
+        padding: 0px 0px 30px 0px;
 }
 .four-ul {
 display: flex;
@@ -238,6 +253,9 @@ display: flex;
     color: #FFFFFF;
     
  
+}
+.address-footer {
+    padding: 20px 0px 0px 0px;
 }
 
 .footer-adress {
@@ -273,8 +291,13 @@ display: flex;
 
 ul {
     list-style-type: none;
+    margin: 0;
+     padding: 0;
 }
-
+.portfolio-p {
+    padding: 8px 24px 20px 24px;
+    border: 1px solid #EEEE;
+}
 .ul-button {
     margin-bottom: 30px;
     display: flex;
