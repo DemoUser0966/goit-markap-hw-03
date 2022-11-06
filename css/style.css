@@ -41,14 +41,16 @@ ul {
 
 
 /*header*/
-
+.header {
+    border-bottom: 1px solid #ECECEC
+}
 .header-container {
     height: 75px;
 display: flex;
 align-items: center;
 gap: 93px;
 padding: 0px 15px;
-border-bottom: 1px solid #ECECEC
+
 }
 
 .navigation {
@@ -106,9 +108,10 @@ gap: 50px;
 }
 
 /*hero title*/
-.one-container {
-    padding: 200px 0px;
+.hero {
+padding: 200px 0px;
 }
+
 .hero-container {
     display: flex;
     align-items: center;
@@ -147,6 +150,8 @@ font-weight: 700;
     letter-spacing: 0.06em;
     border-radius: 4px;
     height: 50px;
+    display: block;
+    margin: 0 auto;
    
 }
 
@@ -154,7 +159,7 @@ font-weight: 700;
 .two-ul {
     display: flex;
     gap: 30px;
-    padding: 0px 15px;
+   
 }
 
 .section-two {
@@ -204,7 +209,7 @@ font-weight: 700;
     color: #212121;
     letter-spacing: 0.03em;
     text-align: center;
-    padding: 30px 0px 0px 0px;
+    
     
 
 }
@@ -236,26 +241,31 @@ justify-content: center;
         letter-spacing: 0.03em;
         line-height: 1.71;
         text-align: center;
-        padding: 0px 0px 30px 0px;
+        
 }
 .four-ul {
 display: flex;
     gap: 30px;
     justify-content: center;
 }
+.container-p {
+    padding: 30px 70px;
+    text-align: center;
+}
 
 /*footer*/
-.footer-container {
-    padding: 60px 0px;
-}
+
+.footer-container { }
+    
 .footer {
     background-color:#2F303A;
     color: #FFFFFF;
+    padding: 60px 0px;
     
  
 }
 .address-footer {
-    padding: 20px 0px 0px 0px;
+    
 }
 
 .footer-adress {
@@ -266,6 +276,7 @@ display: flex;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
+        margin-bottom: 9px;
 }
 .footer-adress-1 {
     color: #FFFFFF;
@@ -294,9 +305,14 @@ ul {
     margin: 0;
      padding: 0;
 }
+
+.text-portfolio {
+padding: 8px 21px 20px 24px;
+border: 1px solid #eee;
+}
+
 .portfolio-p {
-    padding: 8px 24px 20px 24px;
-    border: 1px solid #EEEE;
+   
 }
 .ul-button {
     margin-bottom: 30px;
