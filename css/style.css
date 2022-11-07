@@ -68,12 +68,13 @@ gap: 50px;
 }
 
 .head {
-    color: #212121;
+    color: #757575;
     text-decoration: none;
     font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 0.8;
+
 }
 
 .head:hover{
@@ -209,6 +210,7 @@ font-weight: 700;
     color: #212121;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-bottom: 10px;
     
     
 
@@ -249,7 +251,7 @@ display: flex;
     justify-content: center;
 }
 .container-p {
-    padding: 30px 70px;
+    padding: 30px 0px;
     text-align: center;
 }
 
@@ -266,6 +268,7 @@ display: flex;
 }
 .address-footer {
     
+    
 }
 
 .footer-adress {
@@ -277,6 +280,8 @@ display: flex;
         font-size: 14px;
         line-height: 1.7;
         margin-bottom: 9px;
+        display: block;
+        
 }
 .footer-adress-1 {
     color: #FFFFFF;
@@ -286,6 +291,8 @@ display: flex;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
+        margin-bottom: 9px;
+        display: block;
 }
 .footer-name {
     margin-bottom: 20px;
@@ -295,7 +302,8 @@ display: flex;
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px
+        line-height: 36px;
+        display: block;
 }
 
 /*portfolio*/
@@ -307,7 +315,7 @@ ul {
 }
 
 .text-portfolio {
-padding: 8px 21px 20px 24px;
+padding: 20px 24px;
 border: 1px solid #eee;
 }
 
@@ -319,7 +327,6 @@ border: 1px solid #eee;
     display: flex;
     gap: 8px;
     justify-content: center;
-    padding: 0px 15px;
     margin: 0px 0px 50px 0px;
 }
 .picture-ul {
